@@ -1,0 +1,1068 @@
+﻿body {
+    background:#212759;
+}
+#degradado {
+    background-image: url('../images/headerblue.fw.png');
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#divgral{
+    top:0;
+    right:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+#divizq, #divder{
+    top:0;
+    width:15%;
+    height:100%;
+    position:absolute;
+    float: left;
+		
+
+}
+#divizq{
+    left:0;
+    /*background-color:red;*/
+    
+}
+#divder{
+    right:0;
+    /*background-color:red;*/
+    
+}
+#divcentral{
+        top: 0;
+    width: 70%;
+    height: 100%;
+    /*background-color: cadetblue;*/
+   
+    position: absolute;
+    left: 15%;
+
+}
+#cabezera{
+      top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 10%;
+    /*background-color: gray;*/
+}
+#login {
+    top: 10%;
+    left: 0px;
+    position: absolute;
+    background-image: url('../images/engrane.fw.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+     width: 30px;
+    height: 20px;
+
+    
+}
+.log{
+    top: 20px;
+    left: 32px;
+    position: absolute;
+    color: white;
+    }
+
+/*.goo {
+    background-image: url('../images/goo.fw.png') ;
+    background-repeat:no-repeat;
+ 
+    padding-left: 20px;
+}*/
+#lenguaje{
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+#subcab {
+    top: 10%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 25%;
+    /*background-color: green;*/
+}
+
+.izq{
+    top: 0;
+    float:left;
+    width: 40%;
+ position:relative;
+    height: 100%;
+    /*background-color: blue;*/
+
+}
+.der{
+    top: 0;
+    float:left;
+    width: 60%;
+        position: relative;
+    height: 100%;
+    /*background-color: red;*/
+
+}
+
+.escudo {
+    background-image: url('../images/logo.fw.png');
+    background-size: 100% 100%;
+    right: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 150px;
+}
+.rosner {
+    background-image: url('../images/rosner.fw.png');
+     background-size: 100% 100%;
+    top: 30px;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+    
+}
+#cont {
+     top: 33%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 7%;
+    /*background-color: chocolate;*/
+
+}
+#contizq {
+     top: 0;
+    left: 0;
+    width: 78%;
+        z-index: 2;
+    position: absolute;
+    height: 100%;
+    /*background-color: darkcyan;*/
+
+}
+#contder {
+    top: 0;
+    right: 0;
+    width: 22%;
+    position: absolute;
+    height: 100%;
+    /*background-color: fuchsia;*/
+
+}
+.face, .twitter, .instagram{
+    top: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+   width: 40px;
+    height: 40px;
+
+}
+.face {
+    background-image: url('../images/face.fw.png');
+     background-size: 100% 100%;
+    
+}
+.twitter {
+    background-image: url('../images/twit.fw.png');
+     background-size: 100% 100%;
+    left: 70px;
+}
+.instagram {
+    background-image: url('../images/insta.fw.png');
+     background-size: 100% 100%;
+    left: 140px;
+}
+#contimagen {
+    bottom: 0;
+    position: absolute;
+   
+    width: 100%;
+    height: 60%;
+    
+}
+.ninos {
+        background-image: url('../images/niños.fw.png');
+    background-size: 100% 100%;
+    top: 0px;
+    left: -5%;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 110%;
+    height: 100%;
+    z-index:1;
+}
+
+.sombra {
+        background-image: url('../images/sobra.fw.png');
+        background-size: 100% 100%;
+
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#niveles{
+       
+    width: 100%;
+    left: 0;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+    z-index: 1;
+}
+.niveles{
+    background-color: #393F6B;
+    width: 100%;
+    left: 0;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+    
+    
+}
+.rellenonivel{
+    background-color: red;
+    width: 25%;
+   left: -25%;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+        z-index: 1;
+          display:none;
+}
+
+.rellenonivel2{
+     background-color: red;
+    width: 21%;
+   right: -21%;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+        z-index: 1;
+        display:none;
+}
+#contcat{
+       width: 100%;
+    height: 101%;
+   
+    position: absolute;
+}
+
+#contprimaria, #contsecundaria, #contbachillerato, #contespecial{
+     /*background-color: red;*/
+    width: 25%;
+    height: 100%;
+    top: 0;
+    z-index:1;
+}
+#contprimaria {
+    /*background-color: red;*/
+    float: left;
+    
+}
+#contsecundaria{
+    /*background-color:wheat;*/
+    float:left;
+}
+#contbachillerato{
+    /*background-color:olivedrab;*/
+    float:left;
+}
+#contespecial{
+    /*background-color:blue;*/
+    float:left;
+}
+.primaria, .secundaria, .bachillerato, .especial {
+  
+    background-size: 100% 100%;
+    top: 30px;
+    /*left: 25%;*/
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+   margin: auto;
+    z-index: 1;
+}
+.primaria{
+     background-image: url('../images/primaria.fw.png');
+}
+.secundaria {
+    background-image: url('../images/secundaria.fw.png');
+}
+.bachillerato {
+    background-image: url('../images/bachillerato.fw.png');
+}
+.especial {
+    background-image: url('../images/prog.fw.png');
+}
+
+.txtprimaria, .txtsecundaria, .txtbachillerato, .txtespecial{
+   bottom: -60px;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#catinfo{
+     width: 100%;
+    height: 75%;
+    position: absolute;
+    bottom: -105%;
+}
+
+#contnya{
+    /*background-color:red;*/
+    width:55%;
+    height:90%;
+    float:left;
+}
+#contcale{
+    /*background-color:blue;*/
+    width:45%;
+    height:90%;
+    float:left;
+}
+#contleer{
+    background-color:#21275A;
+    width:55%;
+    height:5%;
+    float:left;
+}
+#contcalenente{
+     background-color:#21275A;
+    width:45%;
+    height:5%;
+    float:left;
+}
+
+#txttit1{
+     /*background-color:blue;*/
+    width:55%;
+    height:10%;
+    float:left;
+}
+
+#txttit2{
+    /*background-color:red;*/
+    width:45%;
+    height:10%;
+    float:left;
+}
+#piepag {
+      background-image: url('../images/footer.fw.png');
+    /*background-color: yellow;*/
+    position: absolute;
+    bottom: -133%;
+    background-size: 100% 100%;
+    width: 100%;
+    left: 0;
+    height: 20%;
+    background-repeat: no-repeat;
+}
+.divizq, .divder{
+     top:0;
+    width:15%;
+    height:100%;
+    position:absolute;
+    float: left;
+    /*background-color:steelblue;*/
+
+}
+.divder {
+    right:0;
+}
+.divicentpag{
+ top: 0;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 15%;
+    /*background-color: black;*/
+}
+
+.contlogos{
+        width: 35%;
+    height: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: -44px;
+}
+.contpiepag{
+  width: 54%;
+    height: 80%;
+    right: -40px;
+    position: absolute;
+    /*background-color: red;*/
+    bottom: 0;
+}
+.txtubicacion{
+    position: relative;
+    color: #FFAB00;
+     text-align: left; 
+    font-size: 14px;
+    padding: 6px;
+    z-index: 3;
+}
+
+.logoedlio {
+  background-image: url('../images/logoedlio.fw.png');
+    position: absolute;
+    bottom: 10px;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 30px;
+    right: 40px;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.txtnotcias{
+       
+  position: relative;
+    color: white;
+    /* text-align: center; */
+    font-size: 40px;
+    padding: 6px;
+}
+.txtcalendario{
+ position: relative;
+    color: white;
+    /* text-align: center; */
+    font-size: 40px;
+    padding: 6px;
+}
+
+.txtinfo{
+    width:100%;
+    height:50%;
+    position:relative;
+    top:0;
+    /*background-color:aqua;*/
+}
+.txtinfo1{
+     width:100%;
+    height:10%;
+    position:relative;
+   
+    /*background-color:steelblue;*/
+}
+.txtinfo2{
+     width:100%;
+    height:90%;
+    position:relative;
+   
+    /*background-color:lightsteelblue;*/
+}
+.txtinfo3{
+     position: relative;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+}
+.tztcontenido{
+        position: relative;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.txt2{
+     position: relative;
+    color: #FFAB00;
+     text-align: center; 
+    font-size: 14px;
+    padding: 6px;
+}
+.fondoextra{
+    display:none;
+}
+/*medias queries*/
+
+@media only screen and ( max-width: 480px ) and (orientation: portrait){
+
+    #divizq, #divder{
+    /*background-color:blue;*/
+    width:5%;
+    display:none;
+   
+    }
+    #divcentral{
+        
+    width: 90%;
+    left: 5%;
+
+}
+    #subcab {
+        
+        left: -10%;
+        width: 110%;
+        
+    }
+   
+
+    .escudo {
+    
+    width: 100px;
+    height: 130px;
+        right: 10px;
+}
+.rosner {
+ height: 75px;
+    width: 200px;
+        left: -10px;
+    
+}
+#cont{
+    width:50%;
+}
+#contimagen {
+    bottom: -30px;
+   
+    height: 64%;
+}
+.niveles{
+    
+    height: 20%;
+    bottom: -25%;
+}
+    #niveles {
+    width: 100%;
+    
+    height: 20%;
+    bottom: -25%;
+    
+    }
+    .primaria, .secundaria, .bachillerato, .especial {
+        top: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .txtprimaria, .txtsecundaria, .txtbachillerato, .txtespecial {
+        bottom: -18px;
+        font-size: 10px;
+    }
+    #catinfo {
+           bottom: -125%;
+    height: 100%;
+    }
+    #txttit1 {
+        width: 100%;
+    }
+    .txtnotcias {
+        
+        font-size: 23px;
+        padding: 5px;
+    }
+    #contnya {
+        width: 100%;
+        height: 100%;
+    }
+    #contleer {
+        width: 100%;
+        position: absolute;
+        bottom: -15%;
+    }
+    #txttit2 {
+       
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: -30%;
+    }
+    .txtcalendario {
+      
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    #contcale {
+       
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        bottom: -120%;
+    }
+    #contcalenente {
+       
+        width: 100%;
+        
+        position: absolute;
+        bottom: -90%;
+    }
+    .divizq, .divder{
+        display:none;
+    }
+    #piepag {
+    
+    bottom: -245%;
+   background-color: transparent;
+    width: 100%;
+    
+}
+    .divicentpag {
+       width: 100%;
+       left: 0;
+    }
+
+    .izq {
+   
+    left: 0;
+    
+    height: 100%;
+  
+}
+    .contlogos {        
+        width: 100%;        
+        left: 0px;
+    }
+    .contpiepag {
+    width: 100%;
+    height: 70%;
+     bottom: -65px;
+     left: 0;
+}
+    .fondoextra {
+        
+    background-image: url('../images/fondoextra.fw.png');
+    position: absolute;
+    bottom: 0%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background-repeat: no-repeat;
+   
+    display: block;
+    }
+
+}
+
+
+@media screen and (max-device-width: 767px) and (orientation: landscape){
+    #divizq, #divder{
+    /*background-color:blue;*/
+    width:5%;
+    display:none;
+   
+    }
+    #divcentral{
+        
+    width: 90%;
+    left: 5%;
+
+}
+    #subcab {
+        
+        left: -10%;
+        width: 110%;
+        
+    }
+   
+
+.escudo {
+    
+        width: 100px;
+        height: 130px;
+        right: 10px;
+        z-index: 1;
+}
+.rosner {
+        height: 75px;
+        width: 200px;
+        left: -10px;
+        z-index: 1;
+    
+}
+#cont{
+        width: 80%;
+    top: 50%;
+}
+#contimagen {
+    bottom: -95px;
+   
+    height: 64%;
+}
+.niveles{
+    display: none;
+   height: 35%;
+    bottom: -65%;
+}
+
+    #niveles {
+    width: 100%;
+    height: 40%;
+    bottom: -70%;
+    
+    }
+    .rellenonivel{
+    background-color: red;
+    width: 25%;
+   left: -25%;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+        z-index: 1;
+          display:block;
+}
+
+.rellenonivel2{
+     background-color: red;
+    width: 21%;
+   right: -21%;
+    height: 30%;
+    bottom: -30%;
+    position: absolute;
+        z-index: 1;
+        display:block;
+}
+    .sombra{
+        display:none;
+    }
+    .primaria, .secundaria, .bachillerato, .especial {
+        top: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .txtprimaria, .txtsecundaria, .txtbachillerato, .txtespecial {
+        bottom: -18px;
+        font-size: 10px;
+    }
+    #catinfo {
+   
+    bottom: -210%;
+    height: 145%;
+    }
+    #txttit1 {
+    width: 100%;
+   
+    position: absolute;
+    }
+    .txtnotcias {
+        
+        font-size: 23px;
+        padding: 5px;
+    }
+    #contnya {
+        width: 100%;
+        height: 100%;
+       bottom: -30px;
+    position: absolute;
+    }
+    #contleer {
+        width: 100%;
+        position: absolute;
+        bottom: 5%;
+    }
+    #txttit2 {
+       
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: -40px;
+    z-index: 2;
+    }
+    .txtinfo{
+        height: 35%;
+    }
+    .txtinfo2{
+           bottom: -10px;
+    }
+    .txtcalendario {
+      
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    #contcale {
+       
+      /*background-color: green;*/
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: -90%;
+    }
+    #contcalenente {
+       
+        width: 100%;
+        bottom: -96%;
+        position: absolute;
+      
+
+    }
+    .divizq, .divder{
+        display:none;
+    }
+    #piepag {
+    
+   bottom: -385%;
+   background-color: transparent;
+    width: 100%;
+    
+}
+    .divicentpag {
+       width: 100%;
+       left: 0;
+    }
+
+    .izq {
+   
+    left: 0;
+    width: 50%;
+    height: 100%;
+  
+}
+    .der{
+        width:50%;
+    }
+    .contlogos {        
+        width: 100%;        
+        left: 0px;
+    }
+    .contpiepag {
+    width: 100%;
+    height: 70%;
+     bottom: -65px;
+     left: 0;
+}
+    .fondoextra {
+        
+    background-image: url('../images/fondoextra.fw.png');
+    position: absolute;
+    bottom: -56%;
+    background-size: 100% 100%;
+    width: 100%;
+    height:200%;
+    right: 0;
+    background-repeat: no-repeat;
+   
+    display: block;
+    }
+    .logoedlio{
+        bottom:-20px;
+    }
+.txtubicacion {
+    position: relative;
+    color: #FFAB00;
+    text-align: left;
+    font-size: 14px;
+    padding: 6px;
+    z-index: 3;
+    top: 18px;
+    width: 73%;
+    left: 35px;
+}
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) and (orientation: portrait){
+     #divizq, #divder{
+    /*background-color:blue;*/
+    width:5%;
+    display:none;
+   
+    }
+    #divcentral{
+        
+    width: 90%;
+    left: 5%;
+
+}
+    #subcab {
+    left: 0%;
+    width: 100%;
+        
+    }
+   
+
+    .escudo {
+    
+   width: 150px;
+    height: 190px;
+        right: 10px;
+}
+.rosner {
+height: 115px;
+    width: 240px;
+    left: 0px;
+    
+}
+#cont{
+    width: 90%;
+}
+#contimagen {
+    bottom: -30px;
+   
+    height: 64%;
+}
+.niveles{
+    
+    height: 20%;
+    bottom: -23%;
+}
+    #niveles {
+    width: 100%;
+    
+    height: 20%;
+    bottom: -25%;
+    
+    }
+    .primaria, .secundaria, .bachillerato, .especial {
+        top: 10px;
+            width: 99px;
+    height: 100px;
+    }
+    .txtprimaria, .txtsecundaria, .txtbachillerato, .txtespecial {
+        bottom: -25px;
+    font-size: 20px;
+    }
+    #catinfo {
+    bottom: -85%;
+    height: 60%;
+    }
+    #txttit1 {
+        width: 100%;
+    }
+    .txtnotcias {
+        
+        font-size: 30px;
+        padding: 5px;
+    }
+    #contnya {
+        width: 100%;
+        height: 70%;
+    }
+    .txtinfo3 {
+   
+    font-size: 23px;
+    
+}
+    .tztcontenido {
+ 
+    font-size: 20px;
+   
+}
+    .txtinfo {
+    
+    height: 60%;
+  
+}
+
+    .txtinfo1 {
+    
+    top: -10px;
+}
+
+    #contleer {
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+    }
+    #txttit2 {
+       
+        width: 100%;
+        height: 10%;
+        position: absolute;
+       bottom: -15%;
+    }
+    .txtcalendario {
+      
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    #contcale {
+       
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        bottom: -120%;
+    }
+    #contcalenente {
+       
+        width: 100%;
+        
+        position: absolute;
+        bottom: -126%;
+    }
+    .divizq, .divder{
+        display:none;
+    }
+    #piepag {
+    
+    bottom: -190%;
+   background-color: transparent;
+    width: 100%;
+    
+}
+    .divicentpag {
+       width: 100%;
+       left: 0;
+    }
+
+    .izq {
+   
+    left: 0;
+    
+    height: 100%;
+  
+}
+    .contlogos {        
+        width: 100%;        
+        left: 0px;
+    }
+    .contpiepag {
+    width: 100%;
+    height: 50%;
+    bottom: -100px;
+    left: 0;
+}
+    .txtubicacion {
+    
+    text-align: center;
+    font-size: 18px;
+    
+}
+    .fondoextra {
+        
+    background-image: url('../images/fondoextra.fw.png');
+    position: absolute;
+    bottom: 0%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background-repeat: no-repeat;
+   
+    display: block;
+    }
+
+
+}
+
+@media screen and (min-device-width:769px) and (orientation: landscape) {
+    .txtnotcias {
+        font-size: 33px;
+    }
+    .txtcalendario {
+        
+        font-size: 33px;
+    }
+}
